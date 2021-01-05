@@ -1,0 +1,10 @@
+#To check whether the firewalld is running or not
+- - - - - - - - - - - - - - -  - - - -- - - -- - -
+firewall-cmd --state
+or
+systemctl status firewalld
+
+To check the dfault zone in firewall
+------------------------------------
+firewall-cmd --get-default-zone
+

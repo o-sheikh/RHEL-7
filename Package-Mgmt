@@ -1,0 +1,13 @@
+to check whether the Package is installed or not
+------------------------------------------------
+rpm -qa | grep firewalld
+or
+rpmquery firewalld
+
+to install a package
+====================
+
+rpm -ivh htop
+	-i : instal
+	-v : verbose
+	-h : hash

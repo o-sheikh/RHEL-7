@@ -11,3 +11,13 @@ rpm -ivh htop
 	-i : instal
 	-v : verbose
 	-h : hash
+
+installing a new packages
+------------------------
+rpm -ivh oppenssh
+
+to updatethe package
+------------------
+rpm -u openssh
+
+
